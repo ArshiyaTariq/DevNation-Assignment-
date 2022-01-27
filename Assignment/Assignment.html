@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        body {
+            background-color: #9B2226;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrapper {
+            width: 1000px;
+            height: 1000px;
+            backdrop-filter: blur(25px) saturate(82%);
+            -webkit-backdrop-filter: blur(25px) saturate(82%);
+            background-color: rgba(254, 197, 187, 0.44);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.125);
+        }
+
+        #heading {
+            text-align: center;
+            color: white;
+        }
+
+        .contentWrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .contentWrapper img {
+            border-radius: 10px;
+        }
+
+        .blogContent {
+            width: 500px;
+        }
+
+        .blogContent p {
+            text-align: center;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #fec5bb;
+            width: 300px;
+            height: 100px;
+        }
+        .formElem{
+            display: flex;
+            flex-direction: row;
+        }
+        .form {
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 id="heading">Travelling Blog</h1>
+
+        <br>
+        <div class="contentWrapper">
+            <!-- blog tile -->
+            <!-- image -->
+            <img src="./Image/photo-1524850011238-e3d235c7d4c9.avif" width="600" height="500">
+            <!-- blog heading -->
+            <h3>My First Blog With DevNation </h3>
+            <!-- blog deecri -->
+            <div class="blogContent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Non perspiciatis voluptas recusandae at nostrum cum est perferendis veniam ratione?
+                    Culpa fuga ipsum similique harum aliquam repellendus beatae eligendi quos dolorum?</p>
+            </div>
+
+            <br>
+            <!-- link -->
+            <a href="https://unsplash.com/photos/uE2T1tCFsn8">Unsplash</a>
+            <br>
+            <br>
+            <div class="form">
+                <div >
+                    <label for="">Name</label>
+                    <input type="text" name="" id="">
+                </div>
+
+                <div class="formElem">
+                    <label for="">Male</label>
+                    <input type="radio" name="" id="">
+                </div>
+                <div class="formElem">
+                    <label for="">Female</label>
+                    <input type="radio" name="" id="">
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
